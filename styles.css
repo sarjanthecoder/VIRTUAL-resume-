@@ -3,3 +3,6 @@
     --accent-gold: linear-gradient(90deg, #FFD700 0%, #FFA500 100%);
     --dark-bg: linear-gradient(135deg, #0c0c1e 0%, #1a1a3e 50%, #2d1b4e 100%);
 }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; background: var(--dark-bg); min-height: 100vh; display: flex; flex-direction: column; }

@@ -1,1 +1,5 @@
-﻿
+﻿:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --accent-gold: linear-gradient(90deg, #FFD700 0%, #FFA500 100%);
+    --dark-bg: linear-gradient(135deg, #0c0c1e 0%, #1a1a3e 50%, #2d1b4e 100%);
+}

@@ -56,3 +56,5 @@ body { font-family: 'Inter', sans-serif; background: var(--dark-bg); min-height:
 .footer-links { display: flex; gap: 30px; }
 .footer-links a { color: #FFD700; text-decoration: none; font-weight: 600; transition: color 0.3s; }
 .footer-links a:hover { color: #fff; }
+@media print { .bg-animation, .site-header, .site-footer { display: none; } .a4-sheet { box-shadow: none; } }
+@media (max-width: 900px) { .a4-sheet { width: 100%; padding: 25px; } .skills-grid { grid-template-columns: 1fr; } .header-nav { display: none; } .edu-row, .exp-header { flex-direction: column; } .footer-content { flex-direction: column; gap: 20px; } }

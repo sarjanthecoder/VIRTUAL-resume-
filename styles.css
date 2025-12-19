@@ -39,3 +39,14 @@ body { font-family: 'Inter', sans-serif; background: var(--dark-bg); min-height:
 .content-list { list-style: none; }
 .content-list li { padding-left: 15px; margin-bottom: 6px; font-size: 0.84rem; position: relative; }
 .content-list li::before { content: '*'; position: absolute; left: 0; }
+.education-item, .experience-item, .project-item, .hackathon-item { margin-bottom: 12px; }
+.edu-row, .exp-header { display: flex; justify-content: space-between; }
+.edu-left, .exp-title { font-size: 0.84rem; }
+.edu-right, .exp-date { font-size: 0.84rem; font-weight: 600; }
+.sub-info { font-size: 0.8rem; color: #555; margin-left: 15px; }
+.project-title, .hackathon-title { font-size: 0.84rem; font-weight: 700; margin-bottom: 5px; }
+.skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+.skill-heading { font-weight: 700; margin-bottom: 8px; }
+.skill-list { list-style: none; }
+.skill-list li { padding-left: 15px; font-size: 0.8rem; position: relative; }
+.skill-list li::before { content: '*'; position: absolute; left: 0; }

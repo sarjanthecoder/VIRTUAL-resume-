@@ -12,3 +12,7 @@ body { font-family: 'Inter', sans-serif; background: var(--dark-bg); min-height:
 .shape-1 { width: 400px; height: 400px; top: -100px; left: -100px; background: linear-gradient(135deg, rgba(102,126,234,0.3), rgba(118,75,162,0.3)); }
 .shape-2 { width: 300px; height: 300px; top: 50%; right: -50px; background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,165,0,0.2)); animation-delay: -5s; }
 .shape-3 { width: 350px; height: 350px; bottom: -100px; left: 30%; animation-delay: -10s; background: linear-gradient(135deg, rgba(102,126,234,0.3), rgba(118,75,162,0.3)); }
+.shape-4 { width: 250px; height: 250px; top: 20%; left: 60%; background: linear-gradient(135deg, rgba(236,72,153,0.2), rgba(239,68,68,0.2)); animation-delay: -15s; }
+.shape-5 { width: 200px; height: 200px; bottom: 20%; right: 20%; animation-delay: -7s; background: linear-gradient(135deg, rgba(102,126,234,0.3), rgba(118,75,162,0.3)); }
+.shape-6 { width: 280px; height: 280px; top: 40%; left: 10%; background: linear-gradient(135deg, rgba(34,211,238,0.2), rgba(59,130,246,0.2)); animation-delay: -12s; }
+@keyframes float { 0%, 100% { transform: translate(0,0) scale(1); } 50% { transform: translate(50px,50px) scale(1.1); } }

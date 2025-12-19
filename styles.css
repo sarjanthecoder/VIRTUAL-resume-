@@ -34,3 +34,8 @@ body { font-family: 'Inter', sans-serif; background: var(--dark-bg); min-height:
 .qr-container { padding: 10px; border: 2px solid #333; border-radius: 6px; text-align: center; }
 .qr-code { width: 70px; height: 70px; }
 .qr-label { font-size: 0.7rem; font-weight: 600; display: block; margin-top: 5px; }
+.section { margin-bottom: 18px; }
+.section-title { background: var(--accent-gold); color: #000; font-size: 1rem; font-weight: 700; padding: 7px 14px; margin-bottom: 12px; letter-spacing: 1.5px; }
+.content-list { list-style: none; }
+.content-list li { padding-left: 15px; margin-bottom: 6px; font-size: 0.84rem; position: relative; }
+.content-list li::before { content: '*'; position: absolute; left: 0; }
